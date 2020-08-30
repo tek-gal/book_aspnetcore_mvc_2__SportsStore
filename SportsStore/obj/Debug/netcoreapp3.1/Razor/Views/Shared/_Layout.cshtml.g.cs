@@ -19,8 +19,15 @@ using SportsStore.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/_ViewImports.cshtml"
+using SportsStore.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"14e5e0a69cfac76bac0b43d8fa574bd8e639e436", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57f31f051f712ff8bda371a52c6772a43f2faa54", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34794a3b515501b26a235c33dae2f7d3fecc664d", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -49,7 +56,7 @@ using SportsStore.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\n<html lang=\"en\">\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14e5e0a69cfac76bac0b43d8fa574bd8e639e4363077", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14e5e0a69cfac76bac0b43d8fa574bd8e639e4363290", async() => {
                 WriteLiteral("\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Sports Store</title>\n");
             }
             );
@@ -63,7 +70,7 @@ using SportsStore.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14e5e0a69cfac76bac0b43d8fa574bd8e639e4364168", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14e5e0a69cfac76bac0b43d8fa574bd8e639e4364381", async() => {
                 WriteLiteral("\n    ");
 #nullable restore
 #line 9 "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Shared/_Layout.cshtml"

@@ -10256,6 +10256,45 @@
         }
       },
       {
+        "HashCode": 1833984180,
+        "Kind": "ITagHelper",
+        "Name": "SportsStore.Infrastructure.PageLinkTagHelper",
+        "AssemblyName": "SportsStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "div",
+            "Attributes": [
+              {
+                "Name": "page-model"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-model",
+            "TypeName": "SportsStore.Models.ViewModels.PageInfo",
+            "Metadata": {
+              "Common.PropertyName": "PageModel"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-action",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageAction"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "SportsStore.Infrastructure.PageLinkTagHelper"
+        }
+      },
+      {
         "HashCode": -578525471,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",

@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SportsStore.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace SportsStore {
     public class Startup {
@@ -22,7 +23,11 @@ namespace SportsStore {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices (IServiceCollection services) {
-            services.AddTransient<IProductRepository, FakeProductRepository>();
+            // to use UseSqlServer install Microsoft.EntityFrameworkCore,SqlServer
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+                Configuration["Data:SportsStoreProducts:ConnectionString"]
+            ));
+            services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
@@ -40,7 +45,7 @@ namespace SportsStore {
                     template: "{controller=Product}/{action=List}/{id?}"
                 );               
             });
-            
+            SeedData.EnsurePopulated(app);           
         }
     }
 }

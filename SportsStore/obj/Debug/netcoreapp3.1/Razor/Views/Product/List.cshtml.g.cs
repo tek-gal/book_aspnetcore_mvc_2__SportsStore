@@ -19,8 +19,15 @@ using SportsStore.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/_ViewImports.cshtml"
+using SportsStore.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d657e6467cdf2ede8f8991b59c51316db71d3583", @"/Views/Product/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57f31f051f712ff8bda371a52c6772a43f2faa54", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34794a3b515501b26a235c33dae2f7d3fecc664d", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Product>>
     {
         #pragma warning disable 1998

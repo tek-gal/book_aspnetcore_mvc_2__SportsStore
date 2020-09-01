@@ -17,7 +17,7 @@ namespace SportsStore.Infrastructure {
         [ViewContext]
         [HtmlAttributeNotBound]
         public ViewContext ViewContext { get; set; }
-        public PageInfo PageModel { get; set; }
+        public PagingInfo PageModel { get; set; }
         public string PageAction { get; set; }
 
         public override void Process(TagHelperContext context, TagHelperOutput output) {

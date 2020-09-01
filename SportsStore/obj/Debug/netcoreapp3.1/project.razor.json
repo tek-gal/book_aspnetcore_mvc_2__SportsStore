@@ -10275,7 +10275,7 @@
           {
             "Kind": "ITagHelper",
             "Name": "page-model",
-            "TypeName": "SportsStore.Models.ViewModels.PageInfo",
+            "TypeName": "SportsStore.Models.ViewModels.PagingInfo",
             "Metadata": {
               "Common.PropertyName": "PageModel"
             }

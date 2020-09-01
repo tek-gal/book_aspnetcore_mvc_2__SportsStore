@@ -2,7 +2,7 @@ using System;
 
 // create ViewModel to add new tag helper class
 namespace SportsStore.Models.ViewModels {
-    public class PageInfo {
+    public class PagingInfo {
         public int TotalItems { get; set; }
         public int ItemsPerPage { get; set; }
         public int CurrentPage { get; set; }

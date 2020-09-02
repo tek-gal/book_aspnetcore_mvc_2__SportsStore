@@ -14431,6 +14431,11 @@
   "RootNamespace": "SportsStore",
   "Documents": [
     {
+      "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Shared/ProductSummary.cshtml",
+      "TargetPath": "Views\\Shared\\ProductSummary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

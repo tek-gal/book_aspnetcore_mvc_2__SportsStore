@@ -10256,7 +10256,7 @@
         }
       },
       {
-        "HashCode": 1833984180,
+        "HashCode": 687353640,
         "Kind": "ITagHelper",
         "Name": "SportsStore.Infrastructure.PageLinkTagHelper",
         "AssemblyName": "SportsStore",
@@ -10286,6 +10286,48 @@
             "TypeName": "System.String",
             "Metadata": {
               "Common.PropertyName": "PageAction"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-classes-enabled",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "PageClassesEnabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClass"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-normal",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassNormal"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-selected",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassSelected"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-url-values",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "IndexerNamePrefix": "page-url-",
+            "IndexerTypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "PageUrlValues"
             }
           }
         ],
@@ -12461,6 +12503,23 @@
         }
       },
       {
+        "HashCode": 1062806594,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NavigationMenuViewComponentTagHelper",
+        "AssemblyName": "SportsStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:navigation-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NavigationMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NavigationMenu"
+        }
+      },
+      {
         "HashCode": 899238057,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14441,6 +14500,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Product/List.cshtml",
       "TargetPath": "Views\\Product\\List.cshtml",
       "FileKind": "mvc"
@@ -14448,6 +14512,11 @@
     {
       "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/Views/Cart/Index.cshtml",
+      "TargetPath": "Views\\Cart\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

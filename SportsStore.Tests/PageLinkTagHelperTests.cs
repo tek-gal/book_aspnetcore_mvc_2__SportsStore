@@ -23,7 +23,7 @@ namespace SportsStore.Tests {
                 .Returns(urlHelper.Object);
 
             PageLinkTagHelper helper = new PageLinkTagHelper(urlHelperFactory.Object) {
-                PageModel = new PageInfo {
+                PageModel = new PagingInfo {
                 CurrentPage = 2,
                 TotalItems = 28,
                 ItemsPerPage = 10
@@ -51,6 +51,7 @@ namespace SportsStore.Tests {
                 output.Content.GetContent()
             );
         }
+
 
     }
 }

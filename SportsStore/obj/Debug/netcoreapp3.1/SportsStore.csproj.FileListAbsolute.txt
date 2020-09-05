@@ -75,3 +75,5 @@
 /home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/bin/Debug/netcoreapp3.1/bower.json
 /home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ProductSummary.cshtml.g.cs
+/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/NavigationMenu/Default.cshtml.g.cs
+/home/galina/Документы/c#/book_PRO_ASPNETCORE_MVC_2/SportsStore/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Cart/Index.cshtml.g.cs

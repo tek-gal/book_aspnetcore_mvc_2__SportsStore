@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "SportsStore"
+		},
+		{
+			"path": "SportsStore.Tests"
+		}
+	],
+	"settings": {}
+}

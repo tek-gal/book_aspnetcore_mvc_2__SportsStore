@@ -19,7 +19,7 @@ namespace SportsStore.Models {
                         Name = "Kayak",
                             Description = "A boat for one person",
                             Category = "Watersports",
-                            Price = 275
+                            Price = 275M
                     },
                     new Product {
                         Name = "Lifejacket",

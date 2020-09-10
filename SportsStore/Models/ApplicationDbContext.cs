@@ -10,6 +10,10 @@ namespace SportsStore.Models {
 
         public DbSet<Product> Products { get; set; }
 
+        // dotnet ef migrations add Orders - add new model
+        // dotnet ef database drop --force - delete database
+        // dotnet ef database update - create database and apply migrations
+        public DbSet<Order> Orders { get; set; }
     }
 
 }
